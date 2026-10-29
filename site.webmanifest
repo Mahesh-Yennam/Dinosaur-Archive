@@ -1,0 +1,17 @@
+{
+  "name": "Prehistoric Dinosaur Archive — Gamility",
+  "short_name": "Dino Archive",
+  "description": "Interactive encyclopedic expedition across the Mesozoic Era with 32 dinosaur dossiers, scale comparator, geologic timeline, and fossil map.",
+  "start_url": "https://mahesh-yennam.github.io/Dinosaur-Archive/",
+  "scope": "https://mahesh-yennam.github.io/Dinosaur-Archive/",
+  "display": "standalone",
+  "background_color": "#090d0b",
+  "theme_color": "#f59e0b",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="dinoGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="50%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#ef4444"/>
+    </linearGradient>
+    <radialGradient id="amberBg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1c1917"/>
+      <stop offset="100%" stop-color="#0c0a09"/>
+    </radialGradient>
+  </defs>
+  <!-- Background Shield -->
+  <rect width="64" height="64" rx="16" fill="url(#amberBg)"/>
+  <rect x="1.5" y="1.5" width="61" height="61" rx="14.5" stroke="url(#dinoGlow)" stroke-width="2" stroke-opacity="0.6"/>
+
+  <!-- T-Rex Skull Silhouette Silhouette -->
+  <path d="M14 42 C14 30 18 20 28 15 C34 12 44 12 50 16 C53 18 53 22 49 24 C45 26 44 28 47 30 C50 32 50 35 46 36 C42 37 38 36 34 35 C30 38 24 44 14 42 Z" fill="#f59e0b"/>
+  <path d="M18 40 C22 43 28 41 33 37 C37 38 42 39 46 37 C42 41 36 43 31 43 C26 47 20 48 16 46 Z" fill="#ea580c"/>
+  
+  <!-- Eye Socket & Fenestra -->
+  <circle cx="33" cy="22" r="3.5" fill="#0c0a09"/>
+  <ellipse cx="43" cy="22" rx="4" ry="2.5" fill="#0c0a09"/>
+  <circle cx="23" cy="27" r="2.5" fill="#0c0a09"/>
+
+  <!-- Sharp Serrated Teeth -->
+  <path d="M36 35 L38 31 L40 35 L42 31 L44 35 L46 32 L48 35" stroke="#fef08a" stroke-width="1.8" stroke-linecap="round"/>
+  
+  <!-- Amber Fossil Sparkle -->
+  <path d="M48 48 L49 44 L53 43 L49 42 L48 38 L47 42 L43 43 L47 44 Z" fill="#fbbf24"/>
+</svg>
